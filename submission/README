@@ -1,0 +1,14 @@
+We have implemented Paper 2 - Koutra, Danai, Joshua T. Vogelstein, and Christos Faloutsos. "D elta C on: A Principled Massive-Graph Similarity Function." SDM, 2013.
+
+We use igraph library as an extra package.
+
+As the paper 2 clarification stastes we have used the lower bound from the individual moving range threshold, and anything below it is an anomaly.
+
+Only voices and enron_by_day datasets have been used since the other two are very large to be able todo n^2 Matrix operations.
+
+The program prints on console the Anomalous Graphs/Time points.
+
+Attached are also the <dataset>_time_series.txt files with similarity scores.
+
+Also attached are the plots generated in pdf format.
+
